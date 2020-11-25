@@ -201,6 +201,15 @@ $(BUILD_DIR):
 clean:
 	-rm -fR $(BUILD_DIR)
   
+
+#######################################
+# flashing
+######################################
+flash:
+	st-flash erase
+	st-flash write build/chek.bin 0x8000000
+erase:
+	st-flash erase
 #######################################
 # dependencies
 #######################################

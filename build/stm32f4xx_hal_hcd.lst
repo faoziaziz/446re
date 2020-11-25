@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cclgUFxz.s 			page 1
+ARM GAS  /tmp/ccDhaULZ.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
   28:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****              (+++) __HAL_RCC_USB_OTG_HS_CLK_ENABLE(); (For High Speed Mode)
   29:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****              (+++) __HAL_RCC_USB_OTG_HS_ULPI_CLK_ENABLE(); (For High Speed Mode)
   30:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 2
+ARM GAS  /tmp/ccDhaULZ.s 			page 2
 
 
   31:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (##) Initialize the related GPIO clocks
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
   85:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @}
   86:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
   87:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 3
+ARM GAS  /tmp/ccDhaULZ.s 			page 3
 
 
   88:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /* Exported functions --------------------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  142:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
  143:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  144:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     /* Init the low level hardware */
-ARM GAS  /tmp/cclgUFxz.s 			page 4
+ARM GAS  /tmp/ccDhaULZ.s 			page 4
 
 
  145:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     hhcd->MspInitCallback(hhcd);
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  199:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @retval HAL status
  200:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
  201:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** HAL_StatusTypeDef HAL_HCD_HC_Init(HCD_HandleTypeDef *hhcd,
-ARM GAS  /tmp/cclgUFxz.s 			page 5
+ARM GAS  /tmp/ccDhaULZ.s 			page 5
 
 
  202:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                   uint8_t ch_num,
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  256:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  257:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return status;
  258:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 6
+ARM GAS  /tmp/ccDhaULZ.s 			page 6
 
 
  259:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  313:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @retval None
  314:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
  315:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** __weak void  HAL_HCD_MspDeInit(HCD_HandleTypeDef *hhcd)
-ARM GAS  /tmp/cclgUFxz.s 			page 7
+ARM GAS  /tmp/ccDhaULZ.s 			page 7
 
 
  316:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** {
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  370:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint8_t ep_type,
  371:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint8_t token,
  372:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint8_t *pbuff,
-ARM GAS  /tmp/cclgUFxz.s 			page 8
+ARM GAS  /tmp/ccDhaULZ.s 			page 8
 
 
  373:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****                                            uint16_t length,
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  427:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****           hhcd->hc[ch_num].data_pid = HC_PID_DATA1;
  428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         }
  429:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
-ARM GAS  /tmp/cclgUFxz.s 			page 9
+ARM GAS  /tmp/ccDhaULZ.s 			page 9
 
 
  430:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       else
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  484:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   hhcd->hc[ch_num].state = HC_IDLE;
  485:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  486:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return USB_HC_StartXfer(hhcd->Instance, &hhcd->hc[ch_num], (uint8_t)hhcd->Init.dma_enable);
-ARM GAS  /tmp/cclgUFxz.s 			page 10
+ARM GAS  /tmp/ccDhaULZ.s 			page 10
 
 
  487:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  541:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #if (USE_HAL_HCD_REGISTER_CALLBACKS == 1U)
  542:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         hhcd->DisconnectCallback(hhcd);
  543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** #else
-ARM GAS  /tmp/cclgUFxz.s 			page 11
+ARM GAS  /tmp/ccDhaULZ.s 			page 11
 
 
  544:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         HAL_HCD_Disconnect_Callback(hhcd);
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  598:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
  599:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  600:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 12
+ARM GAS  /tmp/ccDhaULZ.s 			page 12
 
 
  601:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  655:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****             the HAL_HCD_Disconnect_Callback could be implemented in the user file
  656:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****    */
  657:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 13
+ARM GAS  /tmp/ccDhaULZ.s 			page 13
 
 
  658:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  712:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****             the HAL_HCD_HC_NotifyURBChange_Callback could be implemented in the user file
  713:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****    */
  714:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 14
+ARM GAS  /tmp/ccDhaULZ.s 			page 14
 
 
  715:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  769:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         hhcd->PortDisabledCallback = pCallback;
  770:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         break;
  771:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 15
+ARM GAS  /tmp/ccDhaULZ.s 			page 15
 
 
  772:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       case HAL_HCD_MSPINIT_CB_ID :
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  826:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *         This parameter can be one of the following values:
  827:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_SOF_CB_ID USB HCD SOF callback ID
  828:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_CONNECT_CB_ID USB HCD Connect callback ID
-ARM GAS  /tmp/cclgUFxz.s 			page 16
+ARM GAS  /tmp/ccDhaULZ.s 			page 16
 
 
  829:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *          @arg @ref HAL_HCD_DISCONNECT_CB_ID OTG HCD Disconnect callback ID
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  883:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
  884:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  885:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   else if (hhcd->State == HAL_HCD_STATE_RESET)
-ARM GAS  /tmp/cclgUFxz.s 			page 17
+ARM GAS  /tmp/ccDhaULZ.s 			page 17
 
 
  886:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  940:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   /* Process locked */
  941:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   __HAL_LOCK(hhcd);
  942:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 18
+ARM GAS  /tmp/ccDhaULZ.s 			page 18
 
 
  943:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   if (hhcd->State == HAL_HCD_STATE_READY)
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  997:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
  998:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  999:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /** @defgroup HCD_Exported_Functions_Group3 Peripheral Control functions
-ARM GAS  /tmp/cclgUFxz.s 			page 19
+ARM GAS  /tmp/ccDhaULZ.s 			page 19
 
 
 1000:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   *  @brief   Management functions
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1054:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /**
 1055:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @}
 1056:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   */
-ARM GAS  /tmp/cclgUFxz.s 			page 20
+ARM GAS  /tmp/ccDhaULZ.s 			page 20
 
 
 1057:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1111:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** {
 1112:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   return hhcd->hc[chnum].xfer_count;
 1113:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 21
+ARM GAS  /tmp/ccDhaULZ.s 			page 21
 
 
 1114:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1168:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** /**
 1169:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @brief  Handle Host Channel IN interrupt requests.
 1170:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @param  hhcd HCD handle
-ARM GAS  /tmp/cclgUFxz.s 			page 22
+ARM GAS  /tmp/ccDhaULZ.s 			page 22
 
 
 1171:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   * @param  chnum Channel number.
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1225:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
 1226:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   else if ((USBx_HC(ch_num)->HCINT & USB_OTG_HCINT_XFRC) == USB_OTG_HCINT_XFRC)
 1227:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
-ARM GAS  /tmp/cclgUFxz.s 			page 23
+ARM GAS  /tmp/ccDhaULZ.s 			page 23
 
 
 1228:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     if (hhcd->Init.dma_enable != 0U)
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1282:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     else if (hhcd->hc[ch_num].state == HC_STALL)
 1283:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
 1284:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       hhcd->hc[ch_num].urb_state  = URB_STALL;
-ARM GAS  /tmp/cclgUFxz.s 			page 24
+ARM GAS  /tmp/ccDhaULZ.s 			page 24
 
 
 1285:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1339:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       hhcd->hc[ch_num].ErrCnt = 0U;
 1340:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       __HAL_HCD_UNMASK_HALT_HC_INT(ch_num);
 1341:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       (void)USB_HC_Halt(hhcd->Instance, (uint8_t)ch_num);
-ARM GAS  /tmp/cclgUFxz.s 			page 25
+ARM GAS  /tmp/ccDhaULZ.s 			page 25
 
 
 1342:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1396:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
 1397:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
 1398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   else if ((USBx_HC(ch_num)->HCINT & USB_OTG_HCINT_NYET) == USB_OTG_HCINT_NYET)
-ARM GAS  /tmp/cclgUFxz.s 			page 26
+ARM GAS  /tmp/ccDhaULZ.s 			page 26
 
 
 1399:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1453:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
 1454:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_UNMASK_HALT_HC_INT(ch_num);
 1455:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     (void)USB_HC_Halt(hhcd->Instance, (uint8_t)ch_num);
-ARM GAS  /tmp/cclgUFxz.s 			page 27
+ARM GAS  /tmp/ccDhaULZ.s 			page 27
 
 
 1456:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_CLEAR_HC_INT(ch_num, USB_OTG_HCINT_NAK);
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1510:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_CLEAR_HC_INT(ch_num, USB_OTG_HCINT_CHH);
 1511:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     HAL_HCD_HC_NotifyURBChange_Callback(hhcd, (uint8_t)ch_num, hhcd->hc[ch_num].urb_state);
 1512:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
-ARM GAS  /tmp/cclgUFxz.s 			page 28
+ARM GAS  /tmp/ccDhaULZ.s 			page 28
 
 
 1513:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   else
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
   60              	.LVL3:
 1536:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   pktsts = (temp & USB_OTG_GRXSTSP_PKTSTS) >> 17;
   61              		.loc 1 1536 3 is_stmt 1 view .LVU14
-ARM GAS  /tmp/cclgUFxz.s 			page 29
+ARM GAS  /tmp/ccDhaULZ.s 			page 29
 
 
   62              		.loc 1 1536 10 is_stmt 0 view .LVU15
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
   80              		.loc 1 1543 7 is_stmt 1 view .LVU21
 1543:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
   81              		.loc 1 1543 10 is_stmt 0 view .LVU22
-ARM GAS  /tmp/cclgUFxz.s 			page 30
+ARM GAS  /tmp/ccDhaULZ.s 			page 30
 
 
   82 001a 002C     		cmp	r4, #0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1551:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         {
  122              		.loc 1 1551 12 view .LVU37
  123 0054 002B     		cmp	r3, #0
-ARM GAS  /tmp/cclgUFxz.s 			page 31
+ARM GAS  /tmp/ccDhaULZ.s 			page 31
 
 
  124 0056 DED0     		beq	.L1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  169              	.LFB131:
  208:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   HAL_StatusTypeDef status;
  170              		.loc 1 208 1 is_stmt 1 view -0
-ARM GAS  /tmp/cclgUFxz.s 			page 32
+ARM GAS  /tmp/ccDhaULZ.s 			page 32
 
 
  171              		.cfi_startproc
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  212              		.loc 1 214 31 is_stmt 0 discriminator 2 view .LVU63
  213 0034 A0F84070 		strh	r7, [r0, #64]	@ movhi
  215:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   hhcd->hc[ch_num].ep_type = ep_type;
-ARM GAS  /tmp/cclgUFxz.s 			page 33
+ARM GAS  /tmp/ccDhaULZ.s 			page 33
 
 
  214              		.loc 1 215 3 is_stmt 1 discriminator 2 view .LVU64
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  252 0078 84F8B832 		strb	r3, [r4, #696]
  237:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  253              		.loc 1 237 3 view .LVU81
-ARM GAS  /tmp/cclgUFxz.s 			page 34
+ARM GAS  /tmp/ccDhaULZ.s 			page 34
 
 
  239:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  301 0004 012B     		cmp	r3, #1
  302 0006 0BD0     		beq	.L16
  250:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  /tmp/cclgUFxz.s 			page 35
+ARM GAS  /tmp/ccDhaULZ.s 			page 35
 
 
  303              		.loc 1 250 1 is_stmt 0 discriminator 2 view .LVU91
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  346              		.syntax unified
  347              		.thumb
  348              		.thumb_func
-ARM GAS  /tmp/cclgUFxz.s 			page 36
+ARM GAS  /tmp/ccDhaULZ.s 			page 36
 
 
  349              		.fpu fpv4-sp-d16
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  122:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  398              		.loc 1 122 3 is_stmt 1 view .LVU112
  124:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 37
+ARM GAS  /tmp/ccDhaULZ.s 			page 37
 
 
  399              		.loc 1 124 3 view .LVU113
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  437 0032 6D46     		mov	r5, sp
  438 0034 0FCC     		ldmia	r4!, {r0, r1, r2, r3}
  439 0036 0FC5     		stmia	r5!, {r0, r1, r2, r3}
-ARM GAS  /tmp/cclgUFxz.s 			page 38
+ARM GAS  /tmp/ccDhaULZ.s 			page 38
 
 
  440 0038 0FCC     		ldmia	r4!, {r0, r1, r2, r3}
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  484 0084 F0BD     		pop	{r4, r5, r6, r7, pc}
  485              	.LVL36:
  486              	.L31:
-ARM GAS  /tmp/cclgUFxz.s 			page 39
+ARM GAS  /tmp/ccDhaULZ.s 			page 39
 
 
  487              	.LCFI10:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  534              	.LFE135:
  536              		.section	.text.HAL_HCD_DeInit,"ax",%progbits
  537              		.align	1
-ARM GAS  /tmp/cclgUFxz.s 			page 40
+ARM GAS  /tmp/ccDhaULZ.s 			page 40
 
 
  538              		.global	HAL_HCD_DeInit
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  581              	.LCFI13:
  582              		.cfi_def_cfa_offset 0
  583              		.cfi_restore 4
-ARM GAS  /tmp/cclgUFxz.s 			page 41
+ARM GAS  /tmp/ccDhaULZ.s 			page 41
 
 
  584              		.cfi_restore 14
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  630 001a 8DB9     		cbnz	r5, .L41
  381:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     hhcd->hc[ch_num].do_ping = do_ping;
  631              		.loc 1 381 5 is_stmt 1 view .LVU171
-ARM GAS  /tmp/cclgUFxz.s 			page 42
+ARM GAS  /tmp/ccDhaULZ.s 			page 42
 
 
  381:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     hhcd->hc[ch_num].do_ping = do_ping;
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  673 005e 01EB8103 		add	r3, r1, r1, lsl #2
  674              	.LVL47:
  398:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         }
-ARM GAS  /tmp/cclgUFxz.s 			page 43
+ARM GAS  /tmp/ccDhaULZ.s 			page 43
 
 
  675              		.loc 1 398 39 view .LVU185
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  419:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         {
  716              		.loc 1 419 12 view .LVU199
  717 00a8 33B9     		cbnz	r3, .L52
-ARM GAS  /tmp/cclgUFxz.s 			page 44
+ARM GAS  /tmp/ccDhaULZ.s 			page 44
 
 
  422:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         }
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  758 00e6 01EB8103 		add	r3, r1, r1, lsl #2
  759 00ea 00EBC303 		add	r3, r0, r3, lsl #3
  760 00ee 0222     		movs	r2, #2
-ARM GAS  /tmp/cclgUFxz.s 			page 45
+ARM GAS  /tmp/ccDhaULZ.s 			page 45
 
 
  761              	.LVL56:
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  460:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         {
  801              		.loc 1 460 29 view .LVU228
  802 0128 00EBC303 		add	r3, r0, r3, lsl #3
-ARM GAS  /tmp/cclgUFxz.s 			page 46
+ARM GAS  /tmp/ccDhaULZ.s 			page 46
 
 
  803 012c 93F85030 		ldrb	r3, [r3, #80]	@ zero_extendqisi2
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  843 0164 00EBC303 		add	r3, r0, r3, lsl #3
  844 0168 079A     		ldr	r2, [sp, #28]
  845 016a 5A64     		str	r2, [r3, #68]
-ARM GAS  /tmp/cclgUFxz.s 			page 47
+ARM GAS  /tmp/ccDhaULZ.s 			page 47
 
 
  480:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   hhcd->hc[ch_num].urb_state = URB_IDLE;
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  884              		.align	1
  885              		.global	HAL_HCD_WKUP_IRQHandler
  886              		.syntax unified
-ARM GAS  /tmp/cclgUFxz.s 			page 48
+ARM GAS  /tmp/ccDhaULZ.s 			page 48
 
 
  887              		.thumb
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  939              		.cfi_startproc
  940              		@ args = 0, pretend = 0, frame = 0
  941              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cclgUFxz.s 			page 49
+ARM GAS  /tmp/ccDhaULZ.s 			page 49
 
 
  942              		@ link register save eliminated.
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  993              		.section	.text.HAL_HCD_PortDisabled_Callback,"ax",%progbits
  994              		.align	1
  995              		.weak	HAL_HCD_PortDisabled_Callback
-ARM GAS  /tmp/cclgUFxz.s 			page 50
+ARM GAS  /tmp/ccDhaULZ.s 			page 50
 
 
  996              		.syntax unified
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1041              		.loc 1 1580 26 is_stmt 0 view .LVU281
  1042 0006 0568     		ldr	r5, [r0]
 1581:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   uint32_t USBx_BASE = (uint32_t)USBx;
-ARM GAS  /tmp/cclgUFxz.s 			page 51
+ARM GAS  /tmp/ccDhaULZ.s 			page 51
 
 
  1043              		.loc 1 1581 3 is_stmt 1 view .LVU282
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1076              		.loc 1 1602 16 is_stmt 0 view .LVU299
  1077 002c 009B     		ldr	r3, [sp]
  1078 002e 43F00203 		orr	r3, r3, #2
-ARM GAS  /tmp/cclgUFxz.s 			page 52
+ARM GAS  /tmp/ccDhaULZ.s 			page 52
 
 
  1079 0032 0093     		str	r3, [sp]
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1110              	.L71:
 1626:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         {
 1627:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****           USBx_HOST->HFIR = 60000U;
-ARM GAS  /tmp/cclgUFxz.s 			page 53
+ARM GAS  /tmp/ccDhaULZ.s 			page 53
 
 
 1628:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         }
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1137              		@ sp needed
  1138 0076 30BD     		pop	{r4, r5, pc}
  1139              	.LVL81:
-ARM GAS  /tmp/cclgUFxz.s 			page 54
+ARM GAS  /tmp/ccDhaULZ.s 			page 54
 
 
  1140              	.L74:
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1182 00ae D6E7     		b	.L67
  1183              		.cfi_endproc
  1184              	.LFE157:
-ARM GAS  /tmp/cclgUFxz.s 			page 55
+ARM GAS  /tmp/ccDhaULZ.s 			page 55
 
 
  1186              		.section	.text.HAL_HCD_HC_NotifyURBChange_Callback,"ax",%progbits
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1177:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   uint32_t USBx_BASE = (uint32_t)USBx;
  1236              		.loc 1 1177 3 is_stmt 1 view .LVU342
 1177:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   uint32_t USBx_BASE = (uint32_t)USBx;
-ARM GAS  /tmp/cclgUFxz.s 			page 56
+ARM GAS  /tmp/ccDhaULZ.s 			page 56
 
 
  1237              		.loc 1 1177 26 is_stmt 0 view .LVU343
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1274              		.loc 1 1226 11 view .LVU360
  1275 0030 13F0010F 		tst	r3, #1
  1276 0034 00F0B080 		beq	.L87
-ARM GAS  /tmp/cclgUFxz.s 			page 57
+ARM GAS  /tmp/ccDhaULZ.s 			page 57
 
 
 1228:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1238:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****         (hhcd->hc[ch_num].ep_type == EP_TYPE_BULK))
  1314              		.loc 1 1238 52 discriminator 1 view .LVU378
  1315 006c 022B     		cmp	r3, #2
-ARM GAS  /tmp/cclgUFxz.s 			page 58
+ARM GAS  /tmp/ccDhaULZ.s 			page 58
 
 
  1316 006e 6CD0     		beq	.L89
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1355 00a8 14D0     		beq	.L83
 1197:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  1356              		.loc 1 1197 5 is_stmt 1 view .LVU394
-ARM GAS  /tmp/cclgUFxz.s 			page 59
+ARM GAS  /tmp/ccDhaULZ.s 			page 59
 
 
  1357 00aa 2023     		movs	r3, #32
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1397 00dc AB68     		ldr	r3, [r5, #8]
 1207:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
  1398              		.loc 1 1207 11 view .LVU409
-ARM GAS  /tmp/cclgUFxz.s 			page 60
+ARM GAS  /tmp/ccDhaULZ.s 			page 60
 
 
  1399 00de 13F4806F 		tst	r3, #1024
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1441 0124 AB60     		str	r3, [r5, #8]
 1204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     (void)USB_HC_Halt(hhcd->Instance, (uint8_t)ch_num);
  1442              		.loc 1 1204 5 view .LVU422
-ARM GAS  /tmp/cclgUFxz.s 			page 61
+ARM GAS  /tmp/ccDhaULZ.s 			page 61
 
 
  1443 0126 0823     		movs	r3, #8
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1484              		.loc 1 1270 5 view .LVU435
 1271:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  1485              		.loc 1 1271 5 view .LVU436
-ARM GAS  /tmp/cclgUFxz.s 			page 62
+ARM GAS  /tmp/ccDhaULZ.s 			page 62
 
 
 1271:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1527 01a8 04EB8403 		add	r3, r4, r4, lsl #2
  1528 01ac 06EBC303 		add	r3, r6, r3, lsl #3
  1529 01b0 93F85D30 		ldrb	r3, [r3, #93]	@ zero_extendqisi2
-ARM GAS  /tmp/cclgUFxz.s 			page 63
+ARM GAS  /tmp/ccDhaULZ.s 			page 63
 
 
 1278:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1567              		.loc 1 1280 35 is_stmt 0 view .LVU466
  1568 01e2 04EB8403 		add	r3, r4, r4, lsl #2
  1569 01e6 06EBC303 		add	r3, r6, r3, lsl #3
-ARM GAS  /tmp/cclgUFxz.s 			page 64
+ARM GAS  /tmp/ccDhaULZ.s 			page 64
 
 
  1570 01ea 0122     		movs	r2, #1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1293:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
  1612              		.loc 1 1293 9 is_stmt 1 view .LVU479
 1293:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
-ARM GAS  /tmp/cclgUFxz.s 			page 65
+ARM GAS  /tmp/ccDhaULZ.s 			page 65
 
 
  1613              		.loc 1 1293 36 is_stmt 0 view .LVU480
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1311:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       tmpreg |= USB_OTG_HCCHAR_CHENA;
  1653              		.loc 1 1311 7 is_stmt 1 view .LVU495
 1311:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       tmpreg |= USB_OTG_HCCHAR_CHENA;
-ARM GAS  /tmp/cclgUFxz.s 			page 66
+ARM GAS  /tmp/ccDhaULZ.s 			page 66
 
 
  1654              		.loc 1 1311 14 is_stmt 0 view .LVU496
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1692 02a0 07D1     		bne	.L104
  1693              	.L105:
 1346:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
-ARM GAS  /tmp/cclgUFxz.s 			page 67
+ARM GAS  /tmp/ccDhaULZ.s 			page 67
 
 
  1694              		.loc 1 1346 7 is_stmt 1 view .LVU513
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1733 02dc 2146     		mov	r1, r4
  1734 02de 3068     		ldr	r0, [r6]
  1735 02e0 FFF7FEFF 		bl	USB_HC_Halt
-ARM GAS  /tmp/cclgUFxz.s 			page 68
+ARM GAS  /tmp/ccDhaULZ.s 			page 68
 
 
  1736              	.LVL120:
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1780              		.section	.text.HCD_HC_OUT_IRQHandler,"ax",%progbits
  1781              		.align	1
  1782              		.syntax unified
-ARM GAS  /tmp/cclgUFxz.s 			page 69
+ARM GAS  /tmp/ccDhaULZ.s 			page 69
 
 
  1783              		.thumb
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1825              	.LVL126:
 1384:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  1826              		.loc 1 1384 5 view .LVU553
-ARM GAS  /tmp/cclgUFxz.s 			page 70
+ARM GAS  /tmp/ccDhaULZ.s 			page 70
 
 
  1827 0018 EB68     		ldr	r3, [r5, #12]
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1868 005a 83F85C20 		strb	r2, [r3, #92]
 1394:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       (void)USB_HC_Halt(hhcd->Instance, (uint8_t)ch_num);
  1869              		.loc 1 1394 7 is_stmt 1 view .LVU567
-ARM GAS  /tmp/cclgUFxz.s 			page 71
+ARM GAS  /tmp/ccDhaULZ.s 			page 71
 
 
  1870 005e EB68     		ldr	r3, [r5, #12]
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
  1908              		.loc 1 1428 8 is_stmt 1 view .LVU584
 1428:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
-ARM GAS  /tmp/cclgUFxz.s 			page 72
+ARM GAS  /tmp/ccDhaULZ.s 			page 72
 
 
  1909              		.loc 1 1428 28 is_stmt 0 view .LVU585
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1948              		.loc 1 1442 5 view .LVU600
 1442:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     __HAL_HCD_CLEAR_HC_INT(ch_num, USB_OTG_HCINT_NAK);
  1949              		.loc 1 1442 11 is_stmt 0 view .LVU601
-ARM GAS  /tmp/cclgUFxz.s 			page 73
+ARM GAS  /tmp/ccDhaULZ.s 			page 73
 
 
  1950 00d0 2146     		mov	r1, r4
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  1991              	.LVL140:
 1405:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
  1992              		.loc 1 1405 5 is_stmt 1 view .LVU615
-ARM GAS  /tmp/cclgUFxz.s 			page 74
+ARM GAS  /tmp/ccDhaULZ.s 			page 74
 
 
  1993 010c 4023     		movs	r3, #64
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2035              		.loc 1 1418 5 is_stmt 1 view .LVU627
  2036 0144 0123     		movs	r3, #1
  2037 0146 AB60     		str	r3, [r5, #8]
-ARM GAS  /tmp/cclgUFxz.s 			page 75
+ARM GAS  /tmp/ccDhaULZ.s 			page 75
 
 
 1419:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   }
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2078              		.loc 1 1445 8 is_stmt 1 view .LVU641
 1445:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
  2079              		.loc 1 1445 28 is_stmt 0 view .LVU642
-ARM GAS  /tmp/cclgUFxz.s 			page 76
+ARM GAS  /tmp/ccDhaULZ.s 			page 76
 
 
  2080 0176 AA68     		ldr	r2, [r5, #8]
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1481:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     {
  2118              		.loc 1 1481 13 is_stmt 0 view .LVU659
  2119 01b0 052A     		cmp	r2, #5
-ARM GAS  /tmp/cclgUFxz.s 			page 77
+ARM GAS  /tmp/ccDhaULZ.s 			page 77
 
 
  2120 01b2 70D0     		beq	.L147
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1501:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       tmpreg |= USB_OTG_HCCHAR_CHENA;
  2158              		.loc 1 1501 14 is_stmt 0 view .LVU676
  2159 01dc 22F08042 		bic	r2, r2, #1073741824
-ARM GAS  /tmp/cclgUFxz.s 			page 78
+ARM GAS  /tmp/ccDhaULZ.s 			page 78
 
 
  2160              	.LVL161:
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2200 020c EB68     		ldr	r3, [r5, #12]
  2201 020e 43F00203 		orr	r3, r3, #2
  2202 0212 EB60     		str	r3, [r5, #12]
-ARM GAS  /tmp/cclgUFxz.s 			page 79
+ARM GAS  /tmp/ccDhaULZ.s 			page 79
 
 
  2203              	.LVL170:
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2242 0248 9342     		cmp	r3, r2
  2243 024a 10D8     		bhi	.L130
 1470:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       }
-ARM GAS  /tmp/cclgUFxz.s 			page 80
+ARM GAS  /tmp/ccDhaULZ.s 			page 80
 
 
  2244              		.loc 1 1470 9 is_stmt 1 view .LVU706
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2287              		.loc 1 1483 7 is_stmt 1 view .LVU717
 1483:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
  2288              		.loc 1 1483 35 is_stmt 0 view .LVU718
-ARM GAS  /tmp/cclgUFxz.s 			page 81
+ARM GAS  /tmp/ccDhaULZ.s 			page 81
 
 
  2289 0296 2823     		movs	r3, #40
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  501:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
  2337              		.loc 1 501 3 view .LVU727
  501:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   {
-ARM GAS  /tmp/cclgUFxz.s 			page 82
+ARM GAS  /tmp/ccDhaULZ.s 			page 82
 
 
  2338              		.loc 1 501 7 is_stmt 0 view .LVU728
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2379 0036 10F4801F 		tst	r0, #1048576
  2380 003a 03D0     		beq	.L151
  518:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****     }
-ARM GAS  /tmp/cclgUFxz.s 			page 83
+ARM GAS  /tmp/ccDhaULZ.s 			page 83
 
 
  2381              		.loc 1 518 7 is_stmt 1 view .LVU742
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2423 007c 5A61     		str	r2, [r3, #20]
  538:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
  2424              		.loc 1 538 7 view .LVU755
-ARM GAS  /tmp/cclgUFxz.s 			page 84
+ARM GAS  /tmp/ccDhaULZ.s 			page 84
 
 
  538:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****       {
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2465 00b6 ABD0     		beq	.L148
  593:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  2466              		.loc 1 593 7 is_stmt 1 view .LVU770
-ARM GAS  /tmp/cclgUFxz.s 			page 85
+ARM GAS  /tmp/ccDhaULZ.s 			page 85
 
 
  2467 00b8 2268     		ldr	r2, [r4]
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2511              		.loc 1 572 19 is_stmt 0 view .LVU780
  2512 00fa 2068     		ldr	r0, [r4]
  2513 00fc FFF7FEFF 		bl	USB_HC_ReadInterrupt
-ARM GAS  /tmp/cclgUFxz.s 			page 86
+ARM GAS  /tmp/ccDhaULZ.s 			page 86
 
 
  2514              	.LVL201:
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2552              		.loc 1 577 26 view .LVU796
  2553 0128 D3F80035 		ldr	r3, [r3, #1280]
  577:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****           {
-ARM GAS  /tmp/cclgUFxz.s 			page 87
+ARM GAS  /tmp/ccDhaULZ.s 			page 87
 
 
  2554              		.loc 1 577 14 view .LVU797
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2603 000e 80F8B852 		strb	r5, [r0, #696]
 1021:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   __HAL_HCD_ENABLE(hhcd);
  2604              		.loc 1 1021 3 discriminator 2 view .LVU805
-ARM GAS  /tmp/cclgUFxz.s 			page 88
+ARM GAS  /tmp/ccDhaULZ.s 			page 88
 
 
 1022:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   (void)USB_DriveVbus(hhcd->Instance, 1U);
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2649              		.cfi_startproc
  2650              		@ args = 0, pretend = 0, frame = 0
  2651              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cclgUFxz.s 			page 89
+ARM GAS  /tmp/ccDhaULZ.s 			page 89
 
 
 1037:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c ****   (void)USB_StopHost(hhcd->Instance);
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
 1042:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** 
  2692              		.loc 1 1042 1 view .LVU832
  2693 0022 7047     		bx	lr
-ARM GAS  /tmp/cclgUFxz.s 			page 90
+ARM GAS  /tmp/ccDhaULZ.s 			page 90
 
 
  2694              		.cfi_endproc
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2745              		@ link register save eliminated.
 1080:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
  2746              		.loc 1 1080 3 view .LVU840
-ARM GAS  /tmp/cclgUFxz.s 			page 91
+ARM GAS  /tmp/ccDhaULZ.s 			page 91
 
 
 1080:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2796              		.loc 1 1111 1 is_stmt 1 view -0
  2797              		.cfi_startproc
  2798              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cclgUFxz.s 			page 92
+ARM GAS  /tmp/ccDhaULZ.s 			page 92
 
 
  2799              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2845              		.section	.text.HAL_HCD_GetCurrentFrame,"ax",%progbits
  2846              		.align	1
  2847              		.global	HAL_HCD_GetCurrentFrame
-ARM GAS  /tmp/cclgUFxz.s 			page 93
+ARM GAS  /tmp/ccDhaULZ.s 			page 93
 
 
  2848              		.syntax unified
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2897              		.cfi_offset 3, -8
  2898              		.cfi_offset 14, -4
 1154:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c **** }
-ARM GAS  /tmp/cclgUFxz.s 			page 94
+ARM GAS  /tmp/ccDhaULZ.s 			page 94
 
 
  2899              		.loc 1 1154 3 is_stmt 1 view .LVU869
@@ -5606,73 +5606,73 @@ ARM GAS  /tmp/cclgUFxz.s 			page 1
  2919              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h"
  2920              		.file 9 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_hcd.h"
  2921              		.file 10 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  /tmp/cclgUFxz.s 			page 95
+ARM GAS  /tmp/ccDhaULZ.s 			page 95
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f4xx_hal_hcd.c
-     /tmp/cclgUFxz.s:18     .text.HCD_RXQLVL_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:25     .text.HCD_RXQLVL_IRQHandler:0000000000000000 HCD_RXQLVL_IRQHandler
-     /tmp/cclgUFxz.s:155    .text.HCD_RXQLVL_IRQHandler:0000000000000080 $d
-     /tmp/cclgUFxz.s:160    .text.HAL_HCD_HC_Init:0000000000000000 $t
-     /tmp/cclgUFxz.s:167    .text.HAL_HCD_HC_Init:0000000000000000 HAL_HCD_HC_Init
-     /tmp/cclgUFxz.s:283    .text.HAL_HCD_HC_Halt:0000000000000000 $t
-     /tmp/cclgUFxz.s:290    .text.HAL_HCD_HC_Halt:0000000000000000 HAL_HCD_HC_Halt
-     /tmp/cclgUFxz.s:344    .text.HAL_HCD_MspInit:0000000000000000 $t
-     /tmp/cclgUFxz.s:351    .text.HAL_HCD_MspInit:0000000000000000 HAL_HCD_MspInit
-     /tmp/cclgUFxz.s:366    .text.HAL_HCD_Init:0000000000000000 $t
-     /tmp/cclgUFxz.s:373    .text.HAL_HCD_Init:0000000000000000 HAL_HCD_Init
-     /tmp/cclgUFxz.s:515    .text.HAL_HCD_MspDeInit:0000000000000000 $t
-     /tmp/cclgUFxz.s:522    .text.HAL_HCD_MspDeInit:0000000000000000 HAL_HCD_MspDeInit
-     /tmp/cclgUFxz.s:537    .text.HAL_HCD_DeInit:0000000000000000 $t
-     /tmp/cclgUFxz.s:544    .text.HAL_HCD_DeInit:0000000000000000 HAL_HCD_DeInit
-     /tmp/cclgUFxz.s:594    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 $t
-     /tmp/cclgUFxz.s:601    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 HAL_HCD_HC_SubmitRequest
-     /tmp/cclgUFxz.s:647    .text.HAL_HCD_HC_SubmitRequest:000000000000003c $d
-     /tmp/cclgUFxz.s:651    .text.HAL_HCD_HC_SubmitRequest:0000000000000040 $t
-     /tmp/cclgUFxz.s:884    .text.HAL_HCD_WKUP_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:891    .text.HAL_HCD_WKUP_IRQHandler:0000000000000000 HAL_HCD_WKUP_IRQHandler
-     /tmp/cclgUFxz.s:906    .text.HAL_HCD_SOF_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:913    .text.HAL_HCD_SOF_Callback:0000000000000000 HAL_HCD_SOF_Callback
-     /tmp/cclgUFxz.s:928    .text.HAL_HCD_Connect_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:935    .text.HAL_HCD_Connect_Callback:0000000000000000 HAL_HCD_Connect_Callback
-     /tmp/cclgUFxz.s:950    .text.HAL_HCD_Disconnect_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:957    .text.HAL_HCD_Disconnect_Callback:0000000000000000 HAL_HCD_Disconnect_Callback
-     /tmp/cclgUFxz.s:972    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:979    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 HAL_HCD_PortEnabled_Callback
-     /tmp/cclgUFxz.s:994    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:1001   .text.HAL_HCD_PortDisabled_Callback:0000000000000000 HAL_HCD_PortDisabled_Callback
-     /tmp/cclgUFxz.s:1016   .text.HCD_Port_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:1022   .text.HCD_Port_IRQHandler:0000000000000000 HCD_Port_IRQHandler
-     /tmp/cclgUFxz.s:1187   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 $t
-     /tmp/cclgUFxz.s:1194   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 HAL_HCD_HC_NotifyURBChange_Callback
-     /tmp/cclgUFxz.s:1211   .text.HCD_HC_IN_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:1217   .text.HCD_HC_IN_IRQHandler:0000000000000000 HCD_HC_IN_IRQHandler
-     /tmp/cclgUFxz.s:1781   .text.HCD_HC_OUT_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:1787   .text.HCD_HC_OUT_IRQHandler:0000000000000000 HCD_HC_OUT_IRQHandler
-     /tmp/cclgUFxz.s:2306   .text.HAL_HCD_IRQHandler:0000000000000000 $t
-     /tmp/cclgUFxz.s:2313   .text.HAL_HCD_IRQHandler:0000000000000000 HAL_HCD_IRQHandler
-     /tmp/cclgUFxz.s:2573   .text.HAL_HCD_Start:0000000000000000 $t
-     /tmp/cclgUFxz.s:2580   .text.HAL_HCD_Start:0000000000000000 HAL_HCD_Start
-     /tmp/cclgUFxz.s:2638   .text.HAL_HCD_Stop:0000000000000000 $t
-     /tmp/cclgUFxz.s:2645   .text.HAL_HCD_Stop:0000000000000000 HAL_HCD_Stop
-     /tmp/cclgUFxz.s:2698   .text.HAL_HCD_ResetPort:0000000000000000 $t
-     /tmp/cclgUFxz.s:2705   .text.HAL_HCD_ResetPort:0000000000000000 HAL_HCD_ResetPort
-     /tmp/cclgUFxz.s:2731   .text.HAL_HCD_GetState:0000000000000000 $t
-     /tmp/cclgUFxz.s:2738   .text.HAL_HCD_GetState:0000000000000000 HAL_HCD_GetState
-     /tmp/cclgUFxz.s:2756   .text.HAL_HCD_HC_GetURBState:0000000000000000 $t
-     /tmp/cclgUFxz.s:2763   .text.HAL_HCD_HC_GetURBState:0000000000000000 HAL_HCD_HC_GetURBState
-     /tmp/cclgUFxz.s:2786   .text.HAL_HCD_HC_GetXferCount:0000000000000000 $t
-     /tmp/cclgUFxz.s:2793   .text.HAL_HCD_HC_GetXferCount:0000000000000000 HAL_HCD_HC_GetXferCount
-     /tmp/cclgUFxz.s:2816   .text.HAL_HCD_HC_GetState:0000000000000000 $t
-     /tmp/cclgUFxz.s:2823   .text.HAL_HCD_HC_GetState:0000000000000000 HAL_HCD_HC_GetState
-ARM GAS  /tmp/cclgUFxz.s 			page 96
+     /tmp/ccDhaULZ.s:18     .text.HCD_RXQLVL_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:25     .text.HCD_RXQLVL_IRQHandler:0000000000000000 HCD_RXQLVL_IRQHandler
+     /tmp/ccDhaULZ.s:155    .text.HCD_RXQLVL_IRQHandler:0000000000000080 $d
+     /tmp/ccDhaULZ.s:160    .text.HAL_HCD_HC_Init:0000000000000000 $t
+     /tmp/ccDhaULZ.s:167    .text.HAL_HCD_HC_Init:0000000000000000 HAL_HCD_HC_Init
+     /tmp/ccDhaULZ.s:283    .text.HAL_HCD_HC_Halt:0000000000000000 $t
+     /tmp/ccDhaULZ.s:290    .text.HAL_HCD_HC_Halt:0000000000000000 HAL_HCD_HC_Halt
+     /tmp/ccDhaULZ.s:344    .text.HAL_HCD_MspInit:0000000000000000 $t
+     /tmp/ccDhaULZ.s:351    .text.HAL_HCD_MspInit:0000000000000000 HAL_HCD_MspInit
+     /tmp/ccDhaULZ.s:366    .text.HAL_HCD_Init:0000000000000000 $t
+     /tmp/ccDhaULZ.s:373    .text.HAL_HCD_Init:0000000000000000 HAL_HCD_Init
+     /tmp/ccDhaULZ.s:515    .text.HAL_HCD_MspDeInit:0000000000000000 $t
+     /tmp/ccDhaULZ.s:522    .text.HAL_HCD_MspDeInit:0000000000000000 HAL_HCD_MspDeInit
+     /tmp/ccDhaULZ.s:537    .text.HAL_HCD_DeInit:0000000000000000 $t
+     /tmp/ccDhaULZ.s:544    .text.HAL_HCD_DeInit:0000000000000000 HAL_HCD_DeInit
+     /tmp/ccDhaULZ.s:594    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 $t
+     /tmp/ccDhaULZ.s:601    .text.HAL_HCD_HC_SubmitRequest:0000000000000000 HAL_HCD_HC_SubmitRequest
+     /tmp/ccDhaULZ.s:647    .text.HAL_HCD_HC_SubmitRequest:000000000000003c $d
+     /tmp/ccDhaULZ.s:651    .text.HAL_HCD_HC_SubmitRequest:0000000000000040 $t
+     /tmp/ccDhaULZ.s:884    .text.HAL_HCD_WKUP_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:891    .text.HAL_HCD_WKUP_IRQHandler:0000000000000000 HAL_HCD_WKUP_IRQHandler
+     /tmp/ccDhaULZ.s:906    .text.HAL_HCD_SOF_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:913    .text.HAL_HCD_SOF_Callback:0000000000000000 HAL_HCD_SOF_Callback
+     /tmp/ccDhaULZ.s:928    .text.HAL_HCD_Connect_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:935    .text.HAL_HCD_Connect_Callback:0000000000000000 HAL_HCD_Connect_Callback
+     /tmp/ccDhaULZ.s:950    .text.HAL_HCD_Disconnect_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:957    .text.HAL_HCD_Disconnect_Callback:0000000000000000 HAL_HCD_Disconnect_Callback
+     /tmp/ccDhaULZ.s:972    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:979    .text.HAL_HCD_PortEnabled_Callback:0000000000000000 HAL_HCD_PortEnabled_Callback
+     /tmp/ccDhaULZ.s:994    .text.HAL_HCD_PortDisabled_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:1001   .text.HAL_HCD_PortDisabled_Callback:0000000000000000 HAL_HCD_PortDisabled_Callback
+     /tmp/ccDhaULZ.s:1016   .text.HCD_Port_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:1022   .text.HCD_Port_IRQHandler:0000000000000000 HCD_Port_IRQHandler
+     /tmp/ccDhaULZ.s:1187   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 $t
+     /tmp/ccDhaULZ.s:1194   .text.HAL_HCD_HC_NotifyURBChange_Callback:0000000000000000 HAL_HCD_HC_NotifyURBChange_Callback
+     /tmp/ccDhaULZ.s:1211   .text.HCD_HC_IN_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:1217   .text.HCD_HC_IN_IRQHandler:0000000000000000 HCD_HC_IN_IRQHandler
+     /tmp/ccDhaULZ.s:1781   .text.HCD_HC_OUT_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:1787   .text.HCD_HC_OUT_IRQHandler:0000000000000000 HCD_HC_OUT_IRQHandler
+     /tmp/ccDhaULZ.s:2306   .text.HAL_HCD_IRQHandler:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2313   .text.HAL_HCD_IRQHandler:0000000000000000 HAL_HCD_IRQHandler
+     /tmp/ccDhaULZ.s:2573   .text.HAL_HCD_Start:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2580   .text.HAL_HCD_Start:0000000000000000 HAL_HCD_Start
+     /tmp/ccDhaULZ.s:2638   .text.HAL_HCD_Stop:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2645   .text.HAL_HCD_Stop:0000000000000000 HAL_HCD_Stop
+     /tmp/ccDhaULZ.s:2698   .text.HAL_HCD_ResetPort:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2705   .text.HAL_HCD_ResetPort:0000000000000000 HAL_HCD_ResetPort
+     /tmp/ccDhaULZ.s:2731   .text.HAL_HCD_GetState:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2738   .text.HAL_HCD_GetState:0000000000000000 HAL_HCD_GetState
+     /tmp/ccDhaULZ.s:2756   .text.HAL_HCD_HC_GetURBState:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2763   .text.HAL_HCD_HC_GetURBState:0000000000000000 HAL_HCD_HC_GetURBState
+     /tmp/ccDhaULZ.s:2786   .text.HAL_HCD_HC_GetXferCount:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2793   .text.HAL_HCD_HC_GetXferCount:0000000000000000 HAL_HCD_HC_GetXferCount
+     /tmp/ccDhaULZ.s:2816   .text.HAL_HCD_HC_GetState:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2823   .text.HAL_HCD_HC_GetState:0000000000000000 HAL_HCD_HC_GetState
+ARM GAS  /tmp/ccDhaULZ.s 			page 96
 
 
-     /tmp/cclgUFxz.s:2846   .text.HAL_HCD_GetCurrentFrame:0000000000000000 $t
-     /tmp/cclgUFxz.s:2853   .text.HAL_HCD_GetCurrentFrame:0000000000000000 HAL_HCD_GetCurrentFrame
-     /tmp/cclgUFxz.s:2879   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 $t
-     /tmp/cclgUFxz.s:2886   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 HAL_HCD_GetCurrentSpeed
+     /tmp/ccDhaULZ.s:2846   .text.HAL_HCD_GetCurrentFrame:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2853   .text.HAL_HCD_GetCurrentFrame:0000000000000000 HAL_HCD_GetCurrentFrame
+     /tmp/ccDhaULZ.s:2879   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 $t
+     /tmp/ccDhaULZ.s:2886   .text.HAL_HCD_GetCurrentSpeed:0000000000000000 HAL_HCD_GetCurrentSpeed
 
 UNDEFINED SYMBOLS
 USB_ReadPacket
